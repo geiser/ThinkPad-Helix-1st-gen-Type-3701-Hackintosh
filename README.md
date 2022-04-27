@@ -1,5 +1,30 @@
 # Thinkpad Helix Hackintosh
 
+
+## Setup
+
+### Bios Settings
+
+The bios must be properly configured prior to installing MacOS.
+
+In `Security` menu, set the following settings:
+
+- `Security > Security` Chip: must be **Disabled**,
+- `Memory Protection > Execution Prevention`: must be **Enabled**,
+- `Anti-Theft > Current Setting`: must be **Disabled**,
+- `Anti-Theft > Computrace > Current Setting`: must be **Disabled**,
+- `Secure Boot > Secure Boot`: must be **Disabled**.
+
+In `Startup` menu, set the following options:
+
+- `UEFI/Legacy Boot`: **Both**,
+- `UEFI/Legacy Priority`: **UEFI First**,
+- `CSM Support`: **Yes**.
+
+## Catalina Hackintosh
+
+Now you can go through the install. 
+
 Disclaimer: I have sold this hardware meaning there is no longer a need to update it, have fun updating Opencore yourself
 
 
